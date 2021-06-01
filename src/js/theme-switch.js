@@ -9,6 +9,7 @@ const bodyStyle = document.body.classList;
 
 setDarkTheme();
 toggleSwitch.addEventListener('change', onToggleTheme);
+bodyStyle.add(Theme.LIGHT);
 
 function onToggleTheme(e) {
   e.currentTarget.checked
